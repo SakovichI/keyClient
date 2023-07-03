@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Test</title>
+  <link rel="preload" href="fonts/OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="header__logo">LOGO</a>
+    <ul class="header__items items-header">
+      <li class="items-header_item"><a href="#" class="items-header__link">
+        <svg class="items-header__icon">
+          <use xlink:href="img/sprite.svg#person"></use>
+        </svg>
+      </a></li>
+      <li class="items-header_item"><a href="#" class="items-header__link">
+        <svg class="items-header__icon">
+          <use xlink:href="img/sprite.svg#favorit"></use>
+        </svg>
+      </a></li>
+      <li class="items-header_item"><a href="#" class="items-header__link">
+        <svg class="items-header__icon">
+          <use xlink:href="img/sprite.svg#bag"></use>
+        </svg>
+      </a></li>
+      <button class="burger items-header__burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
+      <ul class="burger__menu menu" data-menu>
+        <li class="menu__item"><a href="#" class="menu__link">постельное белье</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">одежда для дома</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Одежда для улицы</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Выход</a></li>
+      </ul>
+    </ul>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="product">
+  <div class="product__container container">
+    <div class="product__slider slider-product">
+      <div class="slider-product__nav slider-nav">
+        <div class="slider-nav__item">
+          <picture>
+            <source srcset="img/main.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="img/main.jpg"
+              class="image"
+              width="70"
+              height="91"
+              alt="prev-1"
+            />
+          </picture>
+        </div>
+        <div class="slider-nav__item">
+          <picture>
+            <source srcset="img/prev-1.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="img/prev-1.jpg"
+              class="image"
+              width="70"
+              height="91"
+              alt="prev-1"
+            />
+          </picture>
+        </div>
+        <div class="slider-nav__item">
+          <picture>
+            <source srcset="img/prev-2.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="img/prev-2.jpg"
+              class="image"
+              width="70"
+              height="91"
+              alt="prev-1"
+            />
+          </picture>
+        </div>
+        <div class="slider-nav__item">
+          <picture>
+            <source srcset="img/prev-3.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="img/prev-3.jpg"
+              class="image"
+              width="70"
+              height="91"
+              alt="prev-1"
+            />
+          </picture>
+        </div>
+        <div class="slider-nav__item">
+          <picture>
+            <source srcset="img/prev-4.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="img/prev-4.jpg"
+              class="image"
+              width="70"
+              height="91"
+              alt="prev-1"
+            />
+          </picture>
+        </div>
+        <div class="slider-nav__item">
+          <picture>
+            <source srcset="img/prev-5.webp" type="image/webp" />
+            <img
+              loading="lazy"
+              src="img/prev-5.jpg"
+              class="image"
+              width="70"
+              height="91"
+              alt="prev-1"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="slider-product__block block-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture class="swiper-slide__img">
+              <source srcset="img/main.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/main.jpg"
+                class="image"
+                width="686"
+                height="878"
+                alt="main"
+              />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture class="swiper-slide__img">
+              <source srcset="img/prev-1.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/prev-1.jpg"
+                class="image"
+                width="686"
+                height="878"
+                alt="main"
+              />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture class="swiper-slide__img">
+              <source srcset="img/prev-2.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/prev-2.jpg"
+                class="image"
+                width="686"
+                height="878"
+                alt="main"
+              />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture class="swiper-slide__img">
+              <source srcset="img/prev-3.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/prev-3.jpg"
+                class="image"
+                width="686"
+                height="878"
+                alt="main"
+              />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture class="swiper-slide__img">
+              <source srcset="img/prev-4.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/prev-4.jpg"
+                class="image"
+                width="686"
+                height="878"
+                alt="main"
+              />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture class="swiper-slide__img">
+              <source srcset="img/prev-5.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/prev-5.jpg"
+                class="image"
+                width="686"
+                height="878"
+                alt="main"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product__info product-info">
+      <h2 class="product-info__title">Пижама для девочек</h2>
+      <span class="product-info__article">Арт. 02765/46</span>
+      <div class="product-info__comment comment">
+        <span class="comment__text">Отзывы</span>
+        <div class="comment__rating rating">
+          <form action="#" class="rating__wrap">
+            <input
+              id="rating__item-5"
+              type="radio"
+              class="rating__item"
+              name="rating__item"
+              value="5"
+            />
+            <label for="rating__item-5" class="rating__label"> </label>
+            <input
+              id="rating__item-4"
+              type="radio"
+              class="rating__item"
+              name="rating__item"
+              value="4"
+            />
+            <label for="rating__item-4" class="rating__label"> </label>
+            <input
+              id="rating__item-3"
+              type="radio"
+              class="rating__item"
+              name="rating__item"
+              value="3"
+            />
+            <label for="rating__item-3" class="rating__label"> </label>
+
+            <input
+              id="rating__item-2"
+              type="radio"
+              class="rating__item"
+              name="rating__item"
+              value="2"
+            />
+            <label for="rating__item-2" class="rating__label"> </label>
+            <input
+              id="rating__item-1"
+              type="radio"
+              class="rating__item"
+              name="rating__item"
+              value="1"
+            />
+            <label for="rating__item-1" class="rating__label"> </label>
+          </form>
+        </div>
+        <a href="#" class="comment__link"
+          >14 отзывов
+          <svg class="comment__icon prod-icon">
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="product-info__price price-product">
+        <span class="price-product__actual">800 ₽</span>
+        <span class="price-product__old">1 500 ₽</span>
+        <a href="#" class="price-product__link">
+          <svg class="price-product__icon prod-icon">
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+        </a>
+        <span class="price-product__action">скидка -47%</span>
+        <span class="price-product__discount">акция -20%</span>
+      </div>
+      <div class="dropdown product-info__dropdown">
+        <button class="dropdown__button btn-reset">Выбрать размер</button>
+        <ul class="dropdown__list">
+          <li class="dropdown__list-item" data-value="42x122">42×122</li>
+          <li class="dropdown__list-item" data-value="44x138">44×138</li>
+          <li class="dropdown__list-item" data-value="45x142">45×142</li>
+          <li class="dropdown__list-item" data-value="46x146">46×146</li>
+        </ul>
+        <input
+          type="text"
+          name="select-category"
+          value=""
+          class="dropdown__input-hidden"
+        />
+      </div>
+      <a href="#" class="product__size">Определить размер</a>
+      <div class="product-info__btns btns-prod">
+        <button class="btns-prod__btn-plus btn-reset">+</button>
+        <span class="btns-prod__amount">1</span>
+        <button class="btns-prod__btn-minus btn-reset">-</button>
+
+        <button class="btns-prod__btn-add btn-reset">Добавить в корзину</button>
+        <button class="btns-prod__btn-like btn-reset">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorit"></use>
+          </svg>
+        </button>
+      </div>
+      <button class="btn-reset product-info__modal" data-graph-path="modal">
+        Купить в 1 клик
+      </button>
+      <div class="graph-modal">
+        <div
+          class="graph-modal__container"
+          role="dialog"
+          aria-modal="true"
+          data-graph-target="modal"
+        >
+          <button
+            class="btn-reset js-modal-close graph-modal__close"
+            aria-label="Закрыть модальное окно"
+          ></button>
+          <div class="graph-modal__content content-modal">
+            <form action="#" class="content-modal__form form">
+              <span class="form__title">Купить в 1 клик</span>
+              <label class="form__label">
+                <input
+                  type="tel"
+                  name="Телефон"
+                  class="input-reset form__input input-tel"
+                  placeholder="+ 7 (---) --- -- -- "
+                />
+              </label>
+              <label class="form__label">
+                <input
+                  type="text"
+                  name="Имя"
+                  class="input-reset form__input input-name"
+                  placeholder="Ваше имя"
+                />
+              </label>
+
+              <p class="form__copy">
+                Нажимая кнопку «Отправить», я даю согласие на обработку моих
+                персональных данных в соответствии с
+              </p>
+              <a href="#" class="form__link">Условиями конфиденциальности</a>
+              <button class="btn-reset form__btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <ul class="product-info__list list">
+        <li class="list__items">
+          <a href="#" class="list__link">
+            <svg class="list__icon">
+              <use xlink:href="img/sprite.svg#closes"></use>
+            </svg>
+            Описание товара</a
+          >
+        </li>
+        <li class="list__items">
+          <a href="#" class="list__link">
+            <svg class="list__icon">
+              <use xlink:href="img/sprite.svg#clock"></use>
+            </svg>
+            Доставка и возврат</a
+          >
+        </li>
+        <li class="list__items">
+          <a href="#" class="list__link">
+            <svg class="list__icon">
+              <use xlink:href="img/sprite.svg#pay"></use>
+            </svg>
+            Способы оплаты</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <ul class="footer__byuers byuers">
+      <h3 class="title-3 about__title">покупателям</h3>
+      <li class="byuers__item"><a href="#" class="byuers__link">Каталог</a></li>
+      <li class="byuers__item"><a href="#" class="byuers__link">Акции</a></li>
+      <li class="byuers__item"><a href="#" class="byuers__link">Бренды</a></li>
+    </ul>
+    <ul class="footer__about about">
+      <h3 class="title-3 about__title">о нас</h3>
+      <li class="about__item"><a href="#" class="about__link">О компании</a></li>
+      <li class="about__item"><a href="#" class="about__link">Новости</a></li>
+      <li class="about__item"><a href="#" class="about__link">Команда</a></li>
+    </ul>
+    <div class="footer__subs subs">
+      <h3 class="subs__title title-3">Узнайте первыми о новинках и акциях</h3>
+      <form action="#" class="subs__form form-subs">
+        <label class="form-subs__label">
+          <input type="email" name="email" class="form-subs__input input-reset" placeholder="Адрес электронной почты">
+
+          <button type="reset" class="form-subs__btn-res btn-reset">
+            <svg>
+              <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+          </button>
+
+        </label>
+        <button type="submit" class="form-subs__btn btn-reset">Подписаться</button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
