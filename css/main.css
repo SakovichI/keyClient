@@ -348,7 +348,7 @@ a {
   text-transform: uppercase;
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 500px) {
   .burger {
     display: inline-block;
   }
